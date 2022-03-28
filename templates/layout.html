@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+		<title>Welcome to hogwarts! -{{title}}</title>
+		{% else %}
+		<title>Welcome to hogwarts Potterheads!<title>
+			{% endif %}
+</head>
+<body>
+	{% block content %} {% endblock %}
+</body>
+</html>
